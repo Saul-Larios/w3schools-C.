@@ -20,7 +20,8 @@ int main(){
     } else {
         printf("Good evening.\n");
     }
-    
+    //You can simply write
+    (time < 18) ? printf("Good day.\n") : printf("Good evening.\n");
     // Use the else if statement to specify a new condition if the first condition is false.
     time = 22;
     if (time < 10) {
